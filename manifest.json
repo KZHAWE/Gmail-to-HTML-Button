@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Gmail to HTML Switcher",
+    "description": "Switches Gmail from its normal version to HTML with the click of a button!",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "host_permissions": [
+      "https://mail.google.com/*"
+    ],
+    "permissions": [
+      "activeTab"
+    ]
+  }
+  
